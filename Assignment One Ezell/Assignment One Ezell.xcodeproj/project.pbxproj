@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD3D34552AA161210013F9F6 /* Assignment_One_EzellApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3D34542AA161210013F9F6 /* Assignment_One_EzellApp.swift */; };
+		FD3D34572AA161210013F9F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3D34562AA161210013F9F6 /* ContentView.swift */; };
+		FD3D34592AA161230013F9F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD3D34582AA161230013F9F6 /* Assets.xcassets */; };
+		FD3D345D2AA161230013F9F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD3D345C2AA161230013F9F6 /* Preview Assets.xcassets */; };
+		FD3D34672AA161230013F9F6 /* Assignment_One_EzellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3D34662AA161230013F9F6 /* Assignment_One_EzellTests.swift */; };
+		FD3D34712AA161230013F9F6 /* Assignment_One_EzellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3D34702AA161230013F9F6 /* Assignment_One_EzellUITests.swift */; };
+		FD3D34732AA161230013F9F6 /* Assignment_One_EzellUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3D34722AA161230013F9F6 /* Assignment_One_EzellUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD3D34632AA161230013F9F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD3D34492AA161210013F9F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD3D34502AA161210013F9F6;
+			remoteInfo = "Assignment One Ezell";
+		};
+		FD3D346D2AA161230013F9F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD3D34492AA161210013F9F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD3D34502AA161210013F9F6;
+			remoteInfo = "Assignment One Ezell";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD3D34512AA161210013F9F6 /* Assignment One Ezell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment One Ezell.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD3D34542AA161210013F9F6 /* Assignment_One_EzellApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_One_EzellApp.swift; sourceTree = "<group>"; };
+		FD3D34562AA161210013F9F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FD3D34582AA161230013F9F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD3D345A2AA161230013F9F6 /* Assignment_One_Ezell.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Assignment_One_Ezell.entitlements; sourceTree = "<group>"; };
+		FD3D345C2AA161230013F9F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FD3D34622AA161230013F9F6 /* Assignment One EzellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment One EzellTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD3D34662AA161230013F9F6 /* Assignment_One_EzellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_One_EzellTests.swift; sourceTree = "<group>"; };
+		FD3D346C2AA161230013F9F6 /* Assignment One EzellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment One EzellUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD3D34702AA161230013F9F6 /* Assignment_One_EzellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_One_EzellUITests.swift; sourceTree = "<group>"; };
+		FD3D34722AA161230013F9F6 /* Assignment_One_EzellUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_One_EzellUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD3D344E2AA161210013F9F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3D345F2AA161230013F9F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3D34692AA161230013F9F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD3D34482AA161210013F9F6 = {
+			isa = PBXGroup;
+			children = (
+				FD3D34532AA161210013F9F6 /* Assignment One Ezell */,
+				FD3D34652AA161230013F9F6 /* Assignment One EzellTests */,
+				FD3D346F2AA161230013F9F6 /* Assignment One EzellUITests */,
+				FD3D34522AA161210013F9F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD3D34522AA161210013F9F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD3D34512AA161210013F9F6 /* Assignment One Ezell.app */,
+				FD3D34622AA161230013F9F6 /* Assignment One EzellTests.xctest */,
+				FD3D346C2AA161230013F9F6 /* Assignment One EzellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD3D34532AA161210013F9F6 /* Assignment One Ezell */ = {
+			isa = PBXGroup;
+			children = (
+				FD3D34542AA161210013F9F6 /* Assignment_One_EzellApp.swift */,
+				FD3D34562AA161210013F9F6 /* ContentView.swift */,
+				FD3D34582AA161230013F9F6 /* Assets.xcassets */,
+				FD3D345A2AA161230013F9F6 /* Assignment_One_Ezell.entitlements */,
+				FD3D345B2AA161230013F9F6 /* Preview Content */,
+			);
+			path = "Assignment One Ezell";
+			sourceTree = "<group>";
+		};
+		FD3D345B2AA161230013F9F6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FD3D345C2AA161230013F9F6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FD3D34652AA161230013F9F6 /* Assignment One EzellTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD3D34662AA161230013F9F6 /* Assignment_One_EzellTests.swift */,
+			);
+			path = "Assignment One EzellTests";
+			sourceTree = "<group>";
+		};
+		FD3D346F2AA161230013F9F6 /* Assignment One EzellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD3D34702AA161230013F9F6 /* Assignment_One_EzellUITests.swift */,
+				FD3D34722AA161230013F9F6 /* Assignment_One_EzellUITestsLaunchTests.swift */,
+			);
+			path = "Assignment One EzellUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD3D34502AA161210013F9F6 /* Assignment One Ezell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD3D34762AA161230013F9F6 /* Build configuration list for PBXNativeTarget "Assignment One Ezell" */;
+			buildPhases = (
+				FD3D344D2AA161210013F9F6 /* Sources */,
+				FD3D344E2AA161210013F9F6 /* Frameworks */,
+				FD3D344F2AA161210013F9F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Assignment One Ezell";
+			productName = "Assignment One Ezell";
+			productReference = FD3D34512AA161210013F9F6 /* Assignment One Ezell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD3D34612AA161230013F9F6 /* Assignment One EzellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD3D34792AA161230013F9F6 /* Build configuration list for PBXNativeTarget "Assignment One EzellTests" */;
+			buildPhases = (
+				FD3D345E2AA161230013F9F6 /* Sources */,
+				FD3D345F2AA161230013F9F6 /* Frameworks */,
+				FD3D34602AA161230013F9F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD3D34642AA161230013F9F6 /* PBXTargetDependency */,
+			);
+			name = "Assignment One EzellTests";
+			productName = "Assignment One EzellTests";
+			productReference = FD3D34622AA161230013F9F6 /* Assignment One EzellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD3D346B2AA161230013F9F6 /* Assignment One EzellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD3D347C2AA161230013F9F6 /* Build configuration list for PBXNativeTarget "Assignment One EzellUITests" */;
+			buildPhases = (
+				FD3D34682AA161230013F9F6 /* Sources */,
+				FD3D34692AA161230013F9F6 /* Frameworks */,
+				FD3D346A2AA161230013F9F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD3D346E2AA161230013F9F6 /* PBXTargetDependency */,
+			);
+			name = "Assignment One EzellUITests";
+			productName = "Assignment One EzellUITests";
+			productReference = FD3D346C2AA161230013F9F6 /* Assignment One EzellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD3D34492AA161210013F9F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FD3D34502AA161210013F9F6 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					FD3D34612AA161230013F9F6 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FD3D34502AA161210013F9F6;
+					};
+					FD3D346B2AA161230013F9F6 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FD3D34502AA161210013F9F6;
+					};
+				};
+			};
+			buildConfigurationList = FD3D344C2AA161210013F9F6 /* Build configuration list for PBXProject "Assignment One Ezell" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD3D34482AA161210013F9F6;
+			productRefGroup = FD3D34522AA161210013F9F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD3D34502AA161210013F9F6 /* Assignment One Ezell */,
+				FD3D34612AA161230013F9F6 /* Assignment One EzellTests */,
+				FD3D346B2AA161230013F9F6 /* Assignment One EzellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD3D344F2AA161210013F9F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3D345D2AA161230013F9F6 /* Preview Assets.xcassets in Resources */,
+				FD3D34592AA161230013F9F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3D34602AA161230013F9F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3D346A2AA161230013F9F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD3D344D2AA161210013F9F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3D34572AA161210013F9F6 /* ContentView.swift in Sources */,
+				FD3D34552AA161210013F9F6 /* Assignment_One_EzellApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3D345E2AA161230013F9F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3D34672AA161230013F9F6 /* Assignment_One_EzellTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD3D34682AA161230013F9F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3D34712AA161230013F9F6 /* Assignment_One_EzellUITests.swift in Sources */,
+				FD3D34732AA161230013F9F6 /* Assignment_One_EzellUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD3D34642AA161230013F9F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD3D34502AA161210013F9F6 /* Assignment One Ezell */;
+			targetProxy = FD3D34632AA161230013F9F6 /* PBXContainerItemProxy */;
+		};
+		FD3D346E2AA161230013F9F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD3D34502AA161210013F9F6 /* Assignment One Ezell */;
+			targetProxy = FD3D346D2AA161230013F9F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FD3D34742AA161230013F9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD3D34752AA161230013F9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FD3D34772AA161230013F9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Assignment One Ezell/Assignment_One_Ezell.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Assignment One Ezell/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ezell.Assignment-One-Ezell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD3D34782AA161230013F9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Assignment One Ezell/Assignment_One_Ezell.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Assignment One Ezell/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ezell.Assignment-One-Ezell";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD3D347A2AA161230013F9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ezell.Assignment-One-EzellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assignment One Ezell.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Assignment One Ezell";
+			};
+			name = Debug;
+		};
+		FD3D347B2AA161230013F9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ezell.Assignment-One-EzellTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assignment One Ezell.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Assignment One Ezell";
+			};
+			name = Release;
+		};
+		FD3D347D2AA161230013F9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ezell.Assignment-One-EzellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Assignment One Ezell";
+			};
+			name = Debug;
+		};
+		FD3D347E2AA161230013F9F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ezell.Assignment-One-EzellUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Assignment One Ezell";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD3D344C2AA161210013F9F6 /* Build configuration list for PBXProject "Assignment One Ezell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD3D34742AA161230013F9F6 /* Debug */,
+				FD3D34752AA161230013F9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD3D34762AA161230013F9F6 /* Build configuration list for PBXNativeTarget "Assignment One Ezell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD3D34772AA161230013F9F6 /* Debug */,
+				FD3D34782AA161230013F9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD3D34792AA161230013F9F6 /* Build configuration list for PBXNativeTarget "Assignment One EzellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD3D347A2AA161230013F9F6 /* Debug */,
+				FD3D347B2AA161230013F9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD3D347C2AA161230013F9F6 /* Build configuration list for PBXNativeTarget "Assignment One EzellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD3D347D2AA161230013F9F6 /* Debug */,
+				FD3D347E2AA161230013F9F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD3D34492AA161210013F9F6 /* Project object */;
+}
